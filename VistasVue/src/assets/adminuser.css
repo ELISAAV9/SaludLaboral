@@ -1,0 +1,259 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 25 may 2024, 10:17:31
+    Author     : naher
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600;700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600;700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Lexend:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    /* background-image: linear-gradient(to bottom, #cfe8ff, #fbfbfb, hsl(0, 0%, 100%),  #ffffff);
+    background-color: grad; */
+    background-color: hsl(0, 0%, 100%);
+    background-image: radial-gradient(800px circle at 100% 0%,
+        hsl(211, 58%, 92%) 15%,
+        hsl(210, 86%, 97%) 35%,
+        hsl(223, 91%, 95%) 75%,
+        hsl(214, 100%, 99%) 80%,
+        transparent 100%),
+        radial-gradient(600px circle at 0% 100%,
+          hsl(202, 46%, 92%) 15%,
+          hsl(0, 0%, 100%) 35%,
+          hsl(210, 100%, 96%) 75%,
+          hsl(216, 100%, 99%) 80%,
+          transparent 100%);
+    
+}
+
+.container-top {
+  background-image: linear-gradient(to left, #d7ebff, #ffffff);
+  background-color: grad;
+}
+
+.container-top .nav-link{
+    color: #dff9ff !important;
+}
+
+.container-top .nav-link.active {
+    color: white !important;
+    background-image: linear-gradient(to right, #7b8cb4, #2e4a80);
+    background-color: grad; 
+    border-bottom: 2px solid black; 
+    border-radius: 25px;
+  }
+
+  .web-color {
+    text-shadow: 1.5px 1.5px 0 #233f5b;
+    font-weight: 900;
+}
+
+.blog-header-logo{
+  box-shadow: 0px 4px 0px #bfd6ec;
+
+}
+
+.blog-header-logo:hover {
+    transform: scale(1.1);
+}
+
+
+.navbar {
+  box-shadow: 0px 4px 6px rgba(68, 65, 65, 0.6);
+  background-color: rgba(22, 43, 97, 0.807);
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(1px);
+    
+}
+.navbar-brand
+{
+    font-family: "DM Sans", sans-serif;
+    font-weight: 1000;
+    font-size: 25px;
+    color: white !important;
+    transition: transform 0.3s ease-in-out !important;
+}
+
+.nav-link {
+    color: white !important;
+    font-weight: 800 !important;
+    transition: transform 0.3s ease-in-out !important;
+}
+.nav-link:hover {
+    transform: scale(1.1);
+}
+
+.navbar .navbar-brand:hover{
+    transform: scale(1.2);
+}
+
+.carousel-shadow {
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 45%;
+    right: 30% !important;
+    transform: translate(-20%, -50%);
+    text-align: left !important;
+    padding: 50px; 
+    color: white; 
+}
+.carousel-caption h5 {
+    font-size: 60px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3); 
+    font-weight: 700;
+  }
+
+.carousel-02{
+    color:#1c5085;
+    font-weight: 100 !important;
+
+} 
+.programacion {
+    color:#2e4a80;
+}
+.intro{
+    color:#f4f4f4;
+}
+.carousel-caption p {
+    margin-top: 5%;
+    font-size: 20px; 
+    font-weight: 100;
+  }
+
+.contenedor-btn{
+    margin-top: 7%;
+}
+
+.boton {
+  font-family: "DM Sans";
+  font-weight: 600;
+  margin: auto;
+  color: white !important;
+  background-image: linear-gradient(to right, #7ca6e2, #4763b8);
+  border-radius: 55px;
+  padding: 10px;
+  height: 50px;
+  width: 120px;
+  border: none;
+  transition: transform 0.2s ease-in-out; /* Animación suave */
+  cursor: pointer;
+}
+
+.boton:hover {
+  transform: scale(1.05); /* Aumenta tamaño al 105% */
+}
+
+
+.carousel-control-prev, .carousel-control-next {
+    width: 1%;
+  }
+  
+  .carousel-control-prev {
+    left: -70px !important;
+  }
+  
+  .carousel-control-next {
+    right: -20px;
+  }
+
+  .blog-header {
+    line-height: 1;
+    border-bottom: 1px solid #e5e5e5;
+  }
+
+  #iniciarsesion{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+
+  
+  h1, h2, h3, h4, h6 {
+    font-family: "DM Sans";
+  }
+  
+  .display-4 {
+    font-size: 2.5rem;
+  }
+  @media (min-width: 768px) {
+    .display-4 {
+      font-size: 3rem;
+    }
+  }
+
+  .container-p {
+    background-color: white;
+  }
+
+  .container {
+    padding: 10%;
+    border-radius: 25px;
+    background-color: hsl(0, 0%, 100%);
+    background-image: radial-gradient(500px circle at 100% 0%,
+        hsl(212, 49%, 84%) 15%,
+        hsl(210, 57%, 86%) 35%,
+        hsl(221, 100%, 94%) 75%,
+        hsl(210, 48%, 87%) 80%,
+        transparent 100%),
+        radial-gradient(500px circle at 0% 100%,
+          hsl(202, 46%, 92%) 15%,
+          hsl(213, 82%, 89%) 35%,
+          hsl(210, 100%, 96%) 75%,
+          hsl(212, 79%, 85%) 80%,
+          transparent 100%);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+
+  }
+  
+  .nav-scroller {
+    position: relative;
+    z-index: 2;
+    height: 2.75rem;
+    overflow-y: hidden;
+  }
+  
+  .nav-scroller .nav {
+    display: flex;
+    flex-wrap: nowrap;
+    padding-bottom: 1rem;
+    margin-top: -1px;
+    overflow-x: auto;
+    text-align: center;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+  }
+  
+  .nav-scroller .nav-link {
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+    font-size: .875rem;
+  }
+  
+  .card-img-right {
+    height: 100%;
+    border-radius: 0 3px 3px 0;
+  }
+  
+  .flex-auto {
+    flex: 0 0 auto;
+  }
+  
+  .h-250 { height: 250px; }
+  @media (min-width: 768px) {
+    .h-md-250 { height: 250px; }
+  }

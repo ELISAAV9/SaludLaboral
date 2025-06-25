@@ -1,0 +1,213 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 25 may 2024, 10:15:22
+    Author     : naher
+*/
+body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+        }
+        
+        .contenedor {
+            margin: 50px;
+            background-color: #fff;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        .bloque-titulo {
+            background-color: rgba(22, 43, 97, 0.807);
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            color: #fff; /* Letra blanca */
+            font-size: 25px;
+            margin-bottom: 0; /* Eliminar margen inferior */
+        }
+        
+        p.import{
+            font-size: 20px;
+            text-align: justify;
+            color:dimgrey;
+        }
+        
+        p{
+            display:block;
+            text-align: justify;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        .fieldset {
+            border: 1px solid #ccc;
+            padding: 15px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+        }
+
+        .fieldset legend {
+            font-weight: bold;
+            padding: 5px;
+            border-bottom: 1px solid #ccc;
+            margin-bottom: 10px;
+            background-color: #DAA520; /* Goldenrod */
+            padding: 5px 10px; /* Agregar relleno */
+            border-radius: 5px;
+            font-size: 20px;/* Aumentar el tamaño de la fuente */
+        }
+
+        .label {
+            text-align: justify;
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold; /* Texto en negrita */
+        }
+
+        .input {
+            width: 95%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .select {
+            width: 95%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            appearance: none; /* Ocultar el selector nativo */
+            background-repeat: no-repeat;
+            background-position: right center;
+            background-size: 15px; /* Tamaño del icono */
+            cursor: pointer;
+        }
+
+        .select:focus {
+            outline: none;
+        }
+
+        .opcion {
+            padding: 5px;
+            margin-bottom: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .opcion:hover {
+            background-color: #f0f0f0;
+        }
+
+        .boton {
+            padding: 10px 20px;
+            background-color: midnightblue;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 20px auto; 
+        }
+
+        .boton:hover {
+            background-color: #ccc;
+            color:#000;
+        }
+
+
+     .navegacion {
+    text-align: center; /* Centra el contenido inline como los span */
+    margin-top: 20px;
+}
+.navegacion {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    gap: 0px; /* Espacio entre botones */
+    margin-top: 20px;
+}
+
+.boton.flecha {
+    background-color: #ccc;
+    color: #000;
+    border: none;
+    border-radius: 25px !important;
+    width: 45px;
+    height: 45px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boton.flecha:hover {
+    background-color: midnightblue;
+    color: white;
+}
+.boton-completo {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background-color: #ccc;
+    color: #000;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.boton-completo:hover {
+    background-color: midnightblue;
+    color: white;
+}
+
+.flecha {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: black;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+
+.navegacion span {
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    margin: 0 5px;
+    line-height: 30px; /* Centra el texto verticalmente */
+    background-color: #ccc;
+    border-radius: 50%;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center; /* Centra el texto horizontalmente */
+    transition: background-color 0.3s;
+}
+
+.navegacion span:hover {
+    background-color: midnightblue;
+    color: white;
+}
+
+        
